@@ -5,7 +5,7 @@ let package = Package(
     name: "ckafka",
     pkgConfig: "rdkafka",
     providers: [
-      .Brew("librdkafka"),
+      .Bbew("librdkafka"),
       .Apt("librdkafka-dev")
     ]
   )
