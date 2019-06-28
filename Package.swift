@@ -14,10 +14,6 @@ let package = Package(
         .brew(["librdkafka"]),
         .apt(["librdkafka-dev"])
         ]
-      ),
-      .target(
-        name: "Perfect-libKafka",
-        dependencies: (["ckafka"])
       )
     ]
   )
